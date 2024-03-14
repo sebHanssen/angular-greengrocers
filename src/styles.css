@@ -63,6 +63,15 @@ button {
   }
 }
 
+.filter {
+  position: relative;
+  text-align: center;
+}
+
+.filter button {
+  margin: 2px;
+}
+
 /* Cart */
 
 #cart {

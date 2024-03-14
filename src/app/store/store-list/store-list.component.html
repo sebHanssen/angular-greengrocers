@@ -1,3 +1,10 @@
+<div class="filter">
+    <button (click)="sortPriceAscending()" >Sort by ascending price</button>
+    <button (click)="sortPriceDescending()" >Sort by descending price</button>
+    <button (click)="sortName()" >Sort by name</button>
+    <button (click)="sortDefault()" >Default</button>
+</div>
+
 <ul class="item-list store--item-list">
-    <app-store-item *ngFor="let item of items | async" [item]="item"></app-store-item>
+    <app-store-item *ngFor="let item of items" [item]="item"></app-store-item>
 </ul>
